@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.1">
   <diagram name="Page-1" id="xBC8XUsPvQmf-mWObZ-C">
-    <mxGraphModel dx="2062" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-7" edge="1" parent="1" source="6oR_3OCL55Da5DWBLmhq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6oR_3OCL55Da5DWBLmhq-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="200.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-8" edge="1" parent="1" source="6oR_3OCL55Da5DWBLmhq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6oR_3OCL55Da5DWBLmhq-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320.0000000000002" y="200.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-9" edge="1" parent="1" source="6oR_3OCL55Da5DWBLmhq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6oR_3OCL55Da5DWBLmhq-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="QEMU-KVM" vertex="1">
+          <mxGeometry height="40" width="100" x="270" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-10" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="虚拟机A" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-11" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="&lt;div&gt;虚拟机B&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-12" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="虚拟机C" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-17" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="HOST" vertex="1">
+          <mxGeometry height="160" width="320" x="70" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-18" parent="6oR_3OCL55Da5DWBLmhq-17" style="swimlane;whiteSpace=wrap;html=1;" value="生命周期管理模块" vertex="1">
+          <mxGeometry height="70" width="260" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-19" parent="6oR_3OCL55Da5DWBLmhq-18" style="rounded=0;whiteSpace=wrap;html=1;" value="virtrust" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-21" parent="6oR_3OCL55Da5DWBLmhq-18" style="rounded=0;whiteSpace=wrap;html=1;" value="virtrust-sh" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-23" parent="6oR_3OCL55Da5DWBLmhq-18" style="rounded=0;whiteSpace=wrap;html=1;" value="libvirtrustd" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-15" parent="6oR_3OCL55Da5DWBLmhq-17" style="rounded=0;whiteSpace=wrap;html=1;" value="libvirt" vertex="1">
+          <mxGeometry height="40" width="100" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6oR_3OCL55Da5DWBLmhq-20" edge="1" parent="1" source="6oR_3OCL55Da5DWBLmhq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6oR_3OCL55Da5DWBLmhq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
